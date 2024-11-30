@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>MysteryBox</title>
+	<link rel="icon" href="favicon.ico">
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="MysteryBox" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //Meta tag Keywords -->
+
+	<!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Custom-Files -->
+	<link href="css/login_overlay.css" rel='stylesheet' type='text/css' />
+	<!-- Style-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Font-Awesome-Icons-CSS -->
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+
+	<!-- Web-Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Oxygen:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link
+		href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+		rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Pacifico&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
+	<!-- //Web-Fonts -->
+</head>
+
+<body>
+	<div class="mian-content">
+		<!-- header -->
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="logo text-left">
+					<h1>
+						<a class="navbar-brand" href="index.html">
+							<img src="images/logo.png" alt="" class="img-fluid">MysteryBox</a>
+					</h1>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+					</span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-lg-auto text-lg-right text-center">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.html">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!-- //header -->
+
+		<!-- banner 2 -->
+		<div class="banner2-w3ls">
+
+		</div>
+		<!-- //banner 2 -->
+	</div>
+	<!-- main -->
+	<!-- page details -->
+	<div class="breadcrumb-agile">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb m-0">
+				<li class="breadcrumb-item">
+					<a href="index.html">Home</a>
+				</li>
+				<li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+			</ol>
+		</nav>
+	</div>
+	<!-- //page details -->
+
+	<!-- contact page -->
+	<div class="address py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="title text-center mb-5">
+				<h2 class="text-dark mb-2">Contact Us</h2>
+				<p>For cake orders or inquiries, please get in touch. We’re here to assist you!</p>
+			</div>
+			<div class="row address-row">
+				<div class="col-lg-6 address-right">
+					<div class="address-info wow fadeInRight animated" data-wow-delay=".5s">
+						<h4 class="font-weight-bold mb-3">Address</h4>
+						<p>Madhabpur, Habiganj, Sylhet, Bangladesh</p>
+					</div>
+					<div class="address-info address-mdl wow fadeInRight animated" data-wow-delay=".7s">
+						<h4 class="font-weight-bold mb-3">Phone </h4>
+						<p><a href="tel:+8801749298029">+8801749298029</a></p>
+					</div>
+					<div class="address-info agileits-info wow fadeInRight animated" data-wow-delay=".6s">
+						<h4 class="font-weight-bold mb-3">Mail</h4>
+						<p>
+							<a href="mailto:zakiaifti@gmail.com"> zakiaifti@gmail.com</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6 address-left mt-lg-0 mt-5">
+					<div class="address-grid">
+						<h4 class="font-weight-bold mb-3">Order a Cake</h4>
+						<form id="whatsappForm" onsubmit="sendToWhatsApp(event)">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Name" name="name" required="">
+							</div>
+							<!-- <div class="form-group">
+								<input type="email" class="form-control" placeholder="Email" name="email" required="">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Subject" name="subject"
+									required="">
+							</div> -->
+							<div class="form-group">
+								<textarea placeholder="Order Details" class="form-control" name="details" required=""></textarea>
+							</div>
+							<input type="submit" value="Order Now">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- map -->
+	<div class="map">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d490.3547002443271!2d91.2955646061199!3d24.100049795260354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3753fdce3ec4d65b%3A0xf7adaca732705bd4!2sDr.%20Md.%20Jahurul%20Islam!5e0!3m2!1sen!2sbd!4v1727450337653!5m2!1sen!2sbd"></iframe>
+	</div>
+	<!--// map -->
+	<!-- //contact page -->
+
+
+	<!-- footer -->
+	<footer class="text-center py-sm-4 py-3">
+		<div class="container py-xl-5 py-3">
+			<div class="w3l-footer footer-social-agile mb-4">
+				<ul class="list-unstyled">
+					<li>
+						<a href="https://www.facebook.com/zakiascreation">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li class="mx-1">
+						<a href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-globe"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- copyright -->
+			<p class="copy-right-grids text-light my-lg-5 my-4 pb-4">&copy;
+				<script>document.write((new Date).getFullYear()) </script> MysteryBox. All Rights Reserved | Design by
+				<a href="https://teamramorg.github.io/" target="_blank">Team RAM</a>
+			</p>
+			<!-- //copyright -->
+		</div>
+		<!-- chef -->
+		<img src="images/chef.png" alt="" class="img-fluid chef-style" />
+		<!-- //chef -->
+	</footer>
+	<!-- //footer -->
+
+
+	<!-- Js files -->
+	<!-- JavaScript -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- Default-JavaScript-File -->
+
+	<!-- menu-js -->
+	<script>
+		$('.navicon').on('click', function (e) {
+			e.preventDefault();
+			$(this).toggleClass('navicon--active');
+			$('.toggle').toggleClass('toggle--active');
+		});
+	</script>
+	<!-- //menu-js -->
+
+	<!-- smooth scrolling -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<!-- move-top -->
+	<script src="js/move-top.js"></script>
+	<!-- easing -->
+	<script src="js/easing.js"></script>
+	<!--  necessary snippets for few javascript files -->
+	<script src="js/cakes-bakery.js"></script>
+
+	<script src="js/bootstrap.js"></script>
+	<!-- Necessary-JavaScript-File-For-Bootstrap -->
+
+	<script  src="js/whatsapp.js"></script>
+
+	<!-- //Js files -->
+
+</body>
+
+</html>
